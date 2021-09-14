@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean  class="com.yash.SpringCore.collection.Employeecollection" name="Employee">
+		<property name="E_name" value="Maddy" />
+
+		<property name="mobileno">
+			<list>
+				<value>9011736315</value>
+				<value>9818827255</value>
+				<value>4653425366</value>
+			</list>
+		</property>
+		
+		<property name="addresses">
+		<set>
+		<value>pune</value>
+		<value>nashik</value>
+		<value>nagpur</value>
+		</set>
+		</property>
+		
+		<property name="courses">
+		<map>
+		<entry key="java" value="2months"/>
+		<entry key="hibernate" value="8 days"/>
+		</map>
+		</property>
+	</bean>
+</beans>  
