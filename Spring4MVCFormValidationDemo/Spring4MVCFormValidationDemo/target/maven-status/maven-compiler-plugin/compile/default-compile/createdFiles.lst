@@ -1,0 +1,4 @@
+com\yash\controller\StudentController.class
+com\yash\configuration\StudentConfiguration.class
+com\yash\configuration\StudentInitializer.class
+com\yash\model\Student.class
